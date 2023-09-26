@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "0f1b7a86-a5fa-4f67-ba2f-d1e4d2a6cf0a",
+		"name": "SantionsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26764758"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"user1\",\r\n    \"password\": \"pass123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "sing-up",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"user1\",\r\n    \"password\": \"pass123\",\r\n    \"first_name\": \"abel\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/auth/sign-up"
+			},
+			"response": []
+		}
+	]
+}
